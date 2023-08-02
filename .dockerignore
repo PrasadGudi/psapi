@@ -1,0 +1,18 @@
+# Files and directories to ignore when building the Docker image
+# Add any files or directories that should not be included in the image
+
+# Ignore virtual environment directories
+venv/
+
+# Ignore compiled Python files
+__pycache__/
+
+# Ignore version control files and directories
+.git/
+.gitignore
+
+# Ignore any local development files or logs
+*.log
+*.swp
+*.vscode/
+
